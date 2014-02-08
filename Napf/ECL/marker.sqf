@@ -17,3 +17,23 @@ _t2sachs setMarkerColor "ColorBlue";
 _t2sachs setMarkerBrush "Horizontal";
 _t2sachs setMarkerSize [154, 144];
 t2sachs = _t2sachs;
+
+//Marker on Map to show Tier I Trueb
+_t1trueb = createMarker ["t1trueb", [7731.878, 14836.685]];
+_t1trueb setMarkerText "Tier IV Military Base";
+_t1trueb setMarkerShape "RECTANGLE";
+_t1trueb setMarkerType "Flag";
+_t1trueb setMarkerColor "ColorGreen";
+_t1trueb setMarkerBrush "Horizontal";
+_t1trueb setMarkerSize [154, 144];
+t1trueb = _t1trueb;
+
+//Marker on Map to show Tier III NEIsle
+_t3neisle = createMarker ["t3neisle", [16580.887, 18209.724]];
+_t3neisle setMarkerText "Tier IV Military Base";
+_t3neisle setMarkerShape "RECTANGLE";
+_t3neisle setMarkerType "Flag";
+_t3neisle setMarkerColor "ColorRed";
+_t3neisle setMarkerBrush "Horizontal";
+_t3neisle setMarkerSize [280, 230];
+t3neisle = _t3neisle;
