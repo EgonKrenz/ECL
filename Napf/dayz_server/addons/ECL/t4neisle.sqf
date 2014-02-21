@@ -2822,4 +2822,22 @@ if (true) then
   _this setDir 316.7955;
   _this setPos [16670.414, 17970.316, 3.0517578e-005];
 };
+
+_vehicle_2655 = objNull;
+if (true) then
+{
+  _this = createVehicle ["Generator_DZ", [16760.59, 18117.076, -7.6293945e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_2655 = _this;
+  _this setDir 39.254173;
+  _this setPos [16760.59, 18117.076, -7.6293945e-005];
+};
+
+_vehicle_2656 = objNull;
+if (true) then
+{
+  _this = createVehicle ["Generator_DZ", [16669.424, 18119.367, -1.5258789e-005], [], 0, "CAN_COLLIDE"];
+  _vehicle_2656 = _this;
+  _this setDir -50.827873;
+  _this setPos [16669.424, 18119.367, -1.5258789e-005];
+};
 };
